@@ -1,0 +1,259 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: #121212;
+}
+
+#head {
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 0 6px rgb(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_head {
+  width: 10rem;
+  display: flex;
+  justify-content: end;
+}
+.logo {
+  text-align: start;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: url("logo.jpg");
+  background-size: cover;
+  border: 1px solid black;
+  border: 1px solid white;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgb(255, 255, 255, 1);
+}
+
+.logo:active {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.serach {
+  width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#serach1 {
+  color: white;
+  font-size: 1rem;
+  background-color: #343434;
+  width: 30rem;
+  border-radius: 2rem;
+  margin-right: 0.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 6px rgb(255, 255, 255, 0.7);
+  margin-right: 1rem;
+}
+input::placeholder {
+  color: white;
+}
+
+.btn1 {
+  background-color: #343434;
+  color: white;
+  height: 25px;
+  width: 6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 0;
+  box-shadow: 0 0 6px rgb(255, 255, 255, 0.7);
+}
+.main_things {
+  height: 50px;
+  width: 100%;
+}
+.main_thing {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+.main_thing a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.main_thing a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.allparts {
+  height: 100vh;
+}
+
+.main_body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box1 {
+  margin-top: 5rem;
+  height: 32rem;
+  width: 35rem;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  font-weight: 900;
+}
+.rakesh {
+  margin-bottom: 3rem;
+}
+.btn2 {
+  margin-top: 1rem;
+  background-color: rgb(200, 2, 255);
+  color: white;
+  width: 7rem;
+  border-radius: 8px;
+  border: 0;
+  box-shadow: 0 0 6px rgb(255, 255, 255, 0.7);
+}
+
+.intro p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.box2 {
+  height: 20rem;
+  width: 15rem;
+  background-color: rgb(0, 255, 34);
+  border-radius: 15px;
+  background: url("myphoto.jpg");
+  background-size: cover;
+  transition: 2s;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.box2:hover {
+  box-shadow: 0 0 20px rgb(255, 0, 0);
+}
+
+.main_body1 {
+  margin: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box11 {
+  height: 33.2rem;
+  width: 35rem;
+
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.program-skills {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.intro1 {
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.box21 {
+  height: 32rem;
+  width: 30rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: 8rem;
+}
+
+.projects {
+  color: white;
+  font-weight: 500;
+}
+
+.About-info {
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_me {
+  width: 55rem;
+  height: 25rem;
+  margin-top: 15rem;
+}
+
+.about {
+  color: white;
+  text-decoration: underline;
+}
+
+.about-me {
+  color: white;
+  line-height: 2.2;
+}
+
+.about-font {
+  color: rgb(38, 255, 0);
+}
+
+footer {
+  height: 25rem;
+  width: 100%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.01);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px;
+  margin-top: 10rem;
+}
+
+.contact {
+  padding-top: 2rem;
+  margin-left: 8rem;
+  height: 20rem;
+  width: 30rem;
+}
+.self {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selt-me {
+  height: 4rem;
+  width: 20rem;
+  color: fuchsia;
+  font-size: 2.5rem;
+  font-family: 900;
+}
+.color {
+  background-color: black;
+}
